@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 24px;
+}
+form {
+    width: 400px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 250px;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 80px;
+}
+.radio-group, .checkbox-group {
+    display: flex;
+    align-items: center;
+}
+.radio-group input, .checkbox-group input {
+    width: auto;
+    margin-right: 5px;
+}
+button {
+    width: 100px;
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
